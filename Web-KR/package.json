@@ -1,0 +1,13 @@
+{
+  "name": "web-kr",
+  "version": "0.0.0",
+  "description": "Web-KR",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  }
+}

@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <title>Наша многопользовательская игра</title>
+    <style>
+        canvas {
+            border: 4px solid black;
+        }
+    </style>
+    <div class="nav">
+        <!-- We will be accessing the data-clr in JavaScript -->
+        <div class="clr" data-clr="#000"></div>
+        <div class="clr" data-clr="#EF626C"></div>
+        <div class="clr" data-clr="#fdec03"></div>
+        <div class="clr" data-clr="#24d102"></div>
+        <div class="clr" data-clr="#00008B"></div>
+        <div class="clr" data-clr="#FF4500"></div>
+        <div class="clr no_bor" data-clr="#fff">
+        <img src="static/erase.jpg" width="30" height="30" alt="lorem"></div>
+        <button class="clear">clear</button>
+        
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+<script src="/static/game.js"></script>
+</html>
